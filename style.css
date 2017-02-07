@@ -1,0 +1,33 @@
+/*
+  colors:
+  olive: #6eb613;
+  drk-red: #b90000;
+  teal: #007c8d;
+  turqoise: #004b4e;
+  pink: #ed6079;
+  light-tan: #e9e3d7;
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.controls {
+  bottom: 10vh;
+  display: inline-block;
+  margin: 0 auto;
+  position: fixed;
+}
+.view-holder {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
